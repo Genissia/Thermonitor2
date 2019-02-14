@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backo"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40px"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingTop="600px"
+        android:textColor="#fff" />
+
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText6"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingTop="650px"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#002e4d"
+        android:text="Register"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+
+
+</RelativeLayout>
